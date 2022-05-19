@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Toast.makeText(MainActivity.this, "Calculating...", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(MainActivity.this, "Calculating...", Toast.LENGTH_SHORT).show();
                 String s=edittext.getText().toString();
                 int rupee=Integer.parseInt(s);
                 double rupees=77.44*rupee;
